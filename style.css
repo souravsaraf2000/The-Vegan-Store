@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Nav Bar Properties Start*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 20px 30px;
+}
+/* Nav Bar Properties End*/
+/*Top Icon Properties Start*/
+nav img{
+    height: 40px;
+    width: 40px;
+}
+/*Top Icon Properties End*/
+/*Nav bar right elements properties Start*/
+#head-right{
+    margin-top: 5px;
+}
+#head-right>div{
+    display: inline-block;
+    text-align: center;
+    padding-right: 20px;
+}
+#head-right button{
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    background-color: #aad236;
+    padding: 8px 30px 8px 30px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 20px;
+}
+/* Nav bar right elements properties End*/
+/* Demo Pages Hover Card Properties Start */
+#demo-card{
+    border-top: 2px solid #aad236;
+    margin-right: 25px;
+    width: 160px;
+    box-shadow: 0 2px 4px gray;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    right: 24%;
+    display: none;
+    background-color: #fff;
+}
+#demo-card div{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 0;
+}
+#demo-card div:last-child{
+    border-bottom: none;
+}
+#head-right:hover, #head-right button:hover{
+    cursor: pointer;
+}
+#demo-pages:hover #demo-card, #demo-card:hover{
+    display: block;
+}
+/* Demo Pages Hover Card Properties End */
+/* Landing Background Image Properties Start*/
+#section-1 img{
+    width: 100vw;
+    height: 670px;
+}
+/* Landing Background Image Properties End*/
