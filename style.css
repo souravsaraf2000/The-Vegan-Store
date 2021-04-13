@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
+body,input,textarea{
     font-family: 'Poppins', sans-serif;
 }
 /* Nav Bar Properties Start*/
@@ -81,7 +81,7 @@ nav img{
 #section-1{
     margin: 0;
     width: 100%;
-    height: 670px;
+    height: 800px;
     background: url('images/landing-background.png');
     text-align: center;
 }
@@ -93,7 +93,7 @@ nav img{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 #text-on-img h1{
     font-size: 44px;
@@ -161,18 +161,18 @@ nav img{
     background-color: #f7eee2;
 }
 #section-3-main{
-    padding: 150px 0px;
+    padding: 120px 0px;
 }
-#section-3-main p:first-child{
+.head-style{
     font-family: 'Caveat', cursive;
     color: #aad236;
     font-size: 24px;
 }
-#section-3-main h1{
+.heading-style{
     font-size: 44px;
     font-weight: 600;
 }
-#section-3-main p:last-child{
+.p-style{
     font-size: 16px;
     font-weight: 500;
     color: #8b8b99;
@@ -219,3 +219,253 @@ nav img{
     transition: transform 1s;
 }
 /* Section 3 End */
+/* Section 4 Start*/
+#section-4{
+    background-color: #fff;
+}
+#section-4-main{
+    text-align: center;
+    width: 100%;
+    padding: 120px 0px;
+}
+#section-4-main-1{
+    width: 45%;
+    margin: 0px auto;
+}
+#section-4-container{
+    display: flex;
+    width: 70%;
+    padding-top: 50px;
+    margin: 0px auto;
+}
+.sec-4-cards{
+    border-radius: 25px;
+    border-top-right-radius: 0;
+    background-color: #f5f6fb;
+    width: 33.33%;
+    margin-right: 25px;
+}
+.sec-4-cards div:last-child{
+    margin-right: 0;
+}
+.sec-4-cards img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.sec-4-card-p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+}
+.about{
+    padding: 20px;
+}
+.review{
+    padding: 40px;
+    padding-bottom: 0;
+}
+.review img{
+    margin-bottom: 25px;
+}
+.author{
+    font-size: 16px;
+    font-weight: 600;
+}
+.title{
+    font-size: 12px;
+    color: #8b8b99;
+}
+.sec-4-cards:hover{
+    box-shadow: 2px 2px 8px rgba(128,128,128,0.4);
+}
+/* Section 4 End*/
+/* Section 5 Start*/
+#section-5{
+    display: flex;
+    width:100%;
+}
+#section-5 img{
+    height: 670px;
+    width: 68%;
+}
+#right-div{
+    background: url('images/form2.png');
+    width:32%;
+}
+#right-div-1{
+    width:60%;
+    margin: 0px auto;
+    margin-top: 30%;
+}
+#right-div-1 div:first-child h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+#right-div-1 div:first-child p{
+    color: #8b8b99;
+}
+#right-div-1 div:last-child{
+    padding-top: 60px;
+}
+#right-div-1 div:last-child input{
+    font-size: 16px;
+    padding: 15px;
+    width: 90%;
+    border: 0;
+    outline: none;
+    font-weight: 540;
+    border-radius: 4px;
+}
+#right-div-1 div:last-child button{
+    padding: 18px 35px;
+    color: #fff;
+    background-color: #f69dad;
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+#right-div-1 div:last-child button:hover{
+    color: #f69dad;
+    background-color: transparent;
+    border: 1px solid #f69dad;
+}
+/* Section 5 End*/
+/* Section 6 Start*/ 
+#section-6{
+    background-color: #f6fcfa;
+    height: 300px;
+}
+#section-6-main{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+#section-6-main h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+#section-6-main div{
+    background-color: #f6fcfa;
+    text-align: center;
+}
+#section-6 div p{
+    color: rgba(6, 204, 138, 0.897);
+    font-size: 14px;
+}
+/* Section 6 End*/
+/* Section 7 Start */
+#section-7{
+    text-align: center;
+    padding-bottom: 100px;
+}
+#section-7 h1{
+    font-size: 44px;
+    font-weight: 400;
+    color: #8b8b99;
+    padding: 50px;
+}
+#section-7 hr{
+    margin: auto;
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+#section-7 iframe{
+    width: 60%;
+    height: 500px;
+}
+/* Section 7 End */
+/* Section 8 Start */
+#section-8{
+    display: flex;
+    padding: 50px 50px;
+    padding-top: 0;
+}
+#section-8 h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+#section-8 h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+#section-8 #info p:first-child{
+    font-size: 24px;
+}
+#section-8 p,pre{
+    font-size: 16px;
+    font-weight: 400;
+}
+#section-8 pre{
+    line-height: 2;
+    font-weight: 400;
+}
+#section-8 #info{
+    width: 50%;
+}
+#section-8 #info h1{
+    padding: 20px;
+    padding-left: 0px;
+}
+#section-8 #info div h2{
+    margin-top: 30px;
+    padding-left: 0;
+}
+#section-8 #info div{
+    width: 75%;
+    margin: auto;
+    padding: 0px 100px;
+}
+#section-8 #info div #desc{
+    margin: 0;
+    padding: 0;
+}
+#section-8 #form{
+    width: 50%;
+}
+#section-8 #form div{
+    width: 60%;
+    margin: auto;
+}
+#section-8 #form p:first-child{
+    font-size: 24px;
+}
+#section-8 #form div div{
+    width:100%;
+    padding-bottom: 10px;
+}
+#section-8 #form div div input,textarea{
+    width:100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+}
+#form form{
+    padding: 20px;
+    padding-left: 0;
+}
+#form form button{
+    padding: 15px 40px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-weight: 600;
+    background-color: #aad236;
+    font-size: 16px;
+}
+/* Section 8 End */
+/* Section 9 Start */
+footer{
+    text-align: center;
+    background-color: #232323;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
+/* Section 9 End */
