@@ -6,12 +6,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* Nav Bar Properties Start*/
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
 nav{
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     font-weight: 600;
-    background-color: #fff;
+    background-color:white;
     padding: 20px 30px;
 }
 /* Nav Bar Properties End*/
@@ -72,8 +78,144 @@ nav img{
 }
 /* Demo Pages Hover Card Properties End */
 /* Landing Background Image Properties Start*/
-#section-1 img{
-    width: 100vw;
+#section-1{
+    margin: 0;
+    width: 100%;
     height: 670px;
+    background: url('images/landing-background.png');
+    text-align: center;
 }
 /* Landing Background Image Properties End*/
+/* Properties for text on the Landing Background Image Start*/
+#text-on-img{
+    position: relative;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+#text-on-img h1{
+    font-size: 44px;
+    width: 100%;
+    letter-spacing: 8.8px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+#text-on-img p{
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    color: #8b8b99;
+    margin-top: 45px;
+}
+/* Properties for text on the Landing Background Image End*/
+/*Section 2 Start*/
+#first{
+    background-color: #5acda6;
+    width: 25%;
+    grid-area: first;
+}
+#second{
+    background-color: #91ac41;
+    width: 25%;
+}
+#third{
+    background-color: #e4b476;
+    width: 25%;
+}
+#fourth{
+    background-color: #f69dad;
+    width: 25%;
+}
+#container{
+    display: flex;
+}
+.cards{
+    color: #fff;
+    height: 500px;
+    text-align: center;
+    padding-top: 150px;
+}
+.cards i{
+    font-size: 96px;
+}
+.cards h1{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px;
+}
+.cards p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    padding: 20px 50px 20px 45px;
+}
+.cards:hover i{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+/*Section 2 End*/
+/* Section 3 Start */
+#section-3{
+    background-color: #f7eee2;
+}
+#section-3-main{
+    padding: 150px 0px;
+}
+#section-3-main p:first-child{
+    font-family: 'Caveat', cursive;
+    color: #aad236;
+    font-size: 24px;
+}
+#section-3-main h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+#section-3-main p:last-child{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+#section-3-main-1{
+    text-align: center;
+}
+#section-3-main-container{
+    display: flex;
+    padding-top: 100px;
+    width: 70%;
+    margin: auto auto;
+}
+#section-3-main-container div i{
+    font-size: 60px;
+    background-color: #e3b375;
+    color: #fff;
+    padding: 50px;
+    border-radius: 50%;
+}
+#section-3-main-container div h1{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+#section-3-main-container div p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    width:97%;
+}
+#section-3-main-container div{
+    text-align: center;
+    width: 25%;
+    padding-right:30px;
+}
+#section-3-main-container div:last-child{
+    padding-right:none;
+}
+#section-3-main-container div:hover i{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+/* Section 3 End */
