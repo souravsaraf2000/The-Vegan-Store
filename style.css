@@ -418,6 +418,7 @@ nav img{
 #section-8 #info div{
     width: 75%;
     margin: auto;
+    padding: 0px 100px;
 }
 #section-8 #info div #desc{
     margin: 0;
@@ -458,12 +459,6 @@ nav img{
     background-color: #aad236;
     font-size: 16px;
 }
-#form form button:hover{
-    background-color: transparent;
-    border: 1px solid #aad236;
-    color: #aad236;
-    cursor: pointer;
-}
 /* Section 8 End */
 /* Section 9 Start */
 footer{
@@ -474,141 +469,3 @@ footer{
     font-size: 14px;
 }
 /* Section 9 End */
-/* Media Queries*/
-@media screen and (max-width: 900px)
-{
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    nav #head-right button{
-        margin-right: 0px;
-    }
-    nav #head-right div{
-        display: none;
-    }
-    #section-1 #text-on-img{
-        padding-top: 400px;
-    }
-    #section-1 #text-on-img h1{
-        font-size: 24px;
-        letter-spacing: 5px;
-    }
-    #text-on-img p{
-        font-size: 12px;
-    }
-    #container{
-        display: block;
-    }
-    #container div{
-        width: 100%;
-    }
-    .head-style{
-        font-size: 20px;
-    }
-    .heading-style{
-        font-size: 24px;
-    }
-    .p-style{
-        font-size: 12px;
-    }
-    #section-3-main-container{
-        display: block;
-        padding-top: 30px;
-    }
-    #section-3-main-container div{
-        width: 100%;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-    #section-3-main-container div h1{
-        font-size: 20px;
-    }
-    #section-3-main-container div p{
-        font-size: 12px;
-    }
-    #section-4-container{
-        display: block;
-        width: 100vw;
-    }
-    #section-4-main-1{
-        width: 100vw;
-    }
-    .sec-4-cards{
-        width: 90%;
-        margin: 30px auto;
-    }
-    .sec-4-card-p,.title{
-        font-size: 12px;
-    }
-    .author{
-        font-size: 14px;
-    }
-    #section-5{
-        display: block;
-        width: 100%;
-    }
-    #section-5 img{
-        width: 100vw;
-        height: 500px;
-    }
-    #right-div{
-        width: 100%;
-        background: url('images/form2.png') no-repeat;
-        background-size: cover;
-    }
-    #right-div-1{
-        margin-top: 0;
-    }
-    #right-div-1 div:first-child{
-        padding-top: 30px;
-    }
-    #right-div-1 div:last-child{
-        padding-bottom: 30px;
-    }
-    #section-6{
-        height: 600px;
-        width: 100vw;
-    }
-    #section-6-main{
-        display: block;
-    }
-    #section-7{
-        width: 100vw;
-        padding-bottom: 40px;
-    }
-    #section-7 h1{
-        font-size: 36px;
-    }
-    #section-7 iframe{
-        width: 90%;
-        height: 300px;
-    }
-    #section-8{
-        display: block;
-        padding: 0px 20px;
-        padding-bottom: 50px;
-    }
-    #section-8 #info,#section-8 #form{
-        width: 100%;
-    }
-    #section-8 #info div{
-        padding-left: 0;
-        margin: 0;
-        width: 100%;
-    }
-    #section-8 #info{
-        padding-bottom: 40px;
-    }
-    #section-8 h1{
-        font-size: 36px;
-    }
-    #section-8 #form div{
-        margin: 0;
-        width: 95%;
-    }
-    footer{
-        width: 100vw;
-        padding: 20px 0px;
-    }
-}
