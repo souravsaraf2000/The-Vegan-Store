@@ -396,7 +396,7 @@ nav img{
 #section-8 #info p:first-child{
     font-size: 24px;
 }
-#section-8 p,pre{
+#section-8 p{
     font-size: 16px;
     font-weight: 400;
 }
@@ -550,7 +550,7 @@ footer{
     }
     #section-5 img{
         width: 100vw;
-        height: 500px;
+        height: 300px;
     }
     #right-div{
         width: 100%;
